@@ -21,8 +21,8 @@ class MyHandler(PatternMatchingEventHandler):
 
     def on_modified(self, event):
         self.process(event)
-        # Stop contianer
-        subprocess.run(['./wrapper.sh'])
+        # Build and deploy conainer
+        subprocess.Popen(['./wrapper.sh'])
         
 
     def on_created(self, event):
