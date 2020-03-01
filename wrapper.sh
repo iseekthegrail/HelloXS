@@ -10,4 +10,6 @@ sleep 5
 # Build container
 docker image build -t $container_name .
 # Run container
-docker run --rm -ti --name $container_name $container_name
+docker run --rm -ti --name $container_name
+# Cleanup
+docker system prune -f
