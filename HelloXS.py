@@ -5,6 +5,14 @@
 # Version = '0.2.0'
 
 from termcolor import cprint
+import time
 
-cprint('Hello Expert Services!' , 'red')
-cprint('DevOps or Bust!!', 'blue', 'on_white')
+y = 1
+while True:
+    cprint ('Iteration #'+str(y),'white', 'on_yellow')
+    cprint ('Hello Expert Services!' , 'red')
+    cprint ('DevOps or Bust!!', 'green')
+    cprint ('Testing Ghetto CI/CD')
+    time.sleep (5)
+    y += 1
+x += x
