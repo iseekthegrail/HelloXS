@@ -5,7 +5,7 @@ from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
 class MyHandler(PatternMatchingEventHandler):
-    patterns = ["build"]
+    patterns = ["*build*"]
 
     def process(self, event):
         """
