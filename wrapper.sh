@@ -2,7 +2,7 @@
 # Container name
 container_name="di2020_wojke"
 # Stop contianer
-docker stop -f $container_name
+docker stop $container_name
 sleep 5
 # Delete contianer
 docker rm -f $container_name
