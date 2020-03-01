@@ -12,7 +12,7 @@ while True:
     cprint ('Iteration #'+str(y),'white', 'on_yellow')
     cprint ('Hello Expert Services!' , 'red')
     cprint ('DevOps or Bust!!', 'green')
-    cprint ('Testing Ghetto CI/CD')
+    cprint ('Testing Ghetto CI/CD 2')
     time.sleep (5)
     y += 1
 x += x
