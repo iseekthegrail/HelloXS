@@ -12,7 +12,7 @@ while True:
     cprint ('Iteration #'+str(y),'white', 'on_blue', attrs=['bold'])
     cprint ('Hello Expert Services!' , 'red')
     cprint ('DevOps or Bust!!', 'green')
-#    cprint ('Testing Ghetto CI/CD','red', attrs=['reverse', 'blink'])
+    cprint ('Testing Ghetto CI/CD \n','red', attrs=['reverse', 'blink'])
     time.sleep (5)
     y += 1
 x += x
