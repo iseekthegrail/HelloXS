@@ -40,7 +40,7 @@ class MyHandler(PatternMatchingEventHandler):
         rm_proc.wait()
         rmi_proc = subprocess.Popen(shlex.split(rmi), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         rmi_proc.wait()
-        print (Fore.WHITE + Back.YELLOW + "___BUILDING NEW IMAGE: " + container_name + '___' + Style.RESET_ALL)
+        print (Fore.WHITE + Back.BLUE + "___BUILDING NEW IMAGE: " + container_name + '___' + Style.RESET_ALL)
         build_proc = subprocess.Popen(shlex.split(build))
         build_proc.wait()
         print (Fore.WHITE + Back.GREEN + "___RUNNING CONTIANER: " + container_name + '___' + Style.RESET_ALL)
