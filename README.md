@@ -5,5 +5,5 @@ There is no need to understand Jenkins or any CI/CD tooling to automate you CI a
 
 
 Add commit messages to validate commits and trigger build and deploy
--  1st commit
-
+- 1st commit
+- 2nd commit
