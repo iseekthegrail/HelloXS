@@ -6,7 +6,7 @@
 
 from termcolor import cprint
 
-cprint('Hello Expert Services!' , 'red')
+cprint('Hello Expert Services!' , 'blue')
 cprint('DevOps or Bust!!', 'white', 'on_blue')
 
 
