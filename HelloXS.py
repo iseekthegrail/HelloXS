@@ -20,7 +20,7 @@ cprint('DevOps or Bust!!', 'white', 'on_blue')
 #cprint('DevOps or Bust!!', color)
 
 
-#### Let's add a condition
+#### adding a condition
 #cprint ('running with a conditional statement', 'red', 'on_white')
 #run = input ('Do you really want to run this program? ')
 #if run == 'y' or run == 'Y':
